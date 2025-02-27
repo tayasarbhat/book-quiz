@@ -320,13 +320,13 @@ function App() {
 
       <main className="w-full max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 flex-grow">
         {/* Hero Section */}
-        <motion.div 
+       <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           className="relative overflow-hidden rounded-3xl mb-8 w-full"
         >
-          <div className="absolute inset-0 bg-gradient-to-r from-indigo-600 to-purple-600 opacity-90"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-purple-900 opacity-90"></div>
           <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center mix-blend-overlay"></div>
           
          <div className="relative z-10 px-6 py-8 sm:px-12 sm:py-12 text-white">
@@ -357,7 +357,7 @@ function App() {
                
                 <button 
                   onClick={() => setShowQuiz(true)}
-                  className="px-6 py-3 bg-indigo-800/60 backdrop-blur-sm text-white rounded-xl hover:bg-indigo-800/80 transition-all duration-200 flex items-center gap-2 font-medium border border-white/20 shadow-lg"
+                  className="px-6 py-3 bg-red-800/60 backdrop-blur-sm text-white rounded-xl hover:bg-red-800/80 transition-all duration-200 flex items-center gap-2 font-medium border border-white/20 shadow-lg"
                 >
                   <Brain className="h-5 w-5" />
                   Take a Quiz
